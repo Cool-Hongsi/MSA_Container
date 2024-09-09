@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5", // convert ts to js with es5 version
+    "module": "esnext", // commonjs (require), es2015 and esnext (import)
+    "outDir": "build", // build path
+    "rootDir": "src", // initial path
+    "allowJs": true, // make importing js files from ts files possible
+    "checkJs": true, // Check erros in js files
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    // "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build", "scripts"]
+}
